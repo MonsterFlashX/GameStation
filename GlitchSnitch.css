@@ -1,0 +1,45 @@
+body {
+  font-family: sans-serif;
+  background-color: #111;
+  color: #0f0;
+  text-align: center;
+  padding-top: 20px;
+}
+
+/* Main grid layout */
+#grid {
+  display: grid;
+  grid-template-columns: repeat(6, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+/* Basic box appearance */
+.box {
+  width: 100px;
+  height: 100px;
+  background-color: #222;
+  border: 2px solid #0f0;
+  transition: 0.3s;
+}
+
+/* Boxes that are glitching visually */
+.glitch {
+  background-color: #f00;
+  animation: glitch-flicker 0.4s infinite;
+}
+
+/* Flickering glitch effect */
+@keyframes glitch-flicker {
+  0%   { opacity: 1; }
+  50%  { opacity: 0.3; transform: scale(1.05); }
+  100% { opacity: 1; }
+}
+
+/* Mark fixed bugs */
+.fixed {
+  background-color: #0f0;
+  border-color: #fff;
+  animation: none; /* stops the flicker */
+}

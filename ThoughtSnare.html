@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ThoughtSnare</title>
+  <link rel="stylesheet" href="ThoughtSnare.css">
+</head>
+<body>
+
+  <h1>🧠 ThoughtSnare</h1>
+
+  <div class="instructions">
+    Think of a <strong>two-digit number</strong>, follow the steps, and I’ll try to read your mind.<br>
+    (No promises if you’re psychic yourself!)
+  </div>
+
+  <button type="button" id="startBtn">Start the Snare</button>
+
+  <div id="stepContainer" class="hidden">
+    <ol id="steps">
+      <li>Pick any <strong>two-digit number</strong> (like 42).</li>
+      <li>Add the two digits together. (4 + 2 = 6)</li>
+      <li>Now subtract that result from your original number. (42 - 6 = 36)</li>
+      <li>Find the symbol next to your result below...</li>
+    </ol>
+
+    <div id="symbolGrid">
+      <!-- Symbols will appear here dynamically -->
+    </div>
+
+    <button type="button" id="revealBtn">Reveal Your Symbol</button>
+
+    <div id="mindResult" class="hidden">
+      Your symbol is: <span id="resultSymbol">?</span> 😱
+    </div>
+  </div>
+
+  <script src="ThoughtSnare.js"></script>
+</body>
+</html>

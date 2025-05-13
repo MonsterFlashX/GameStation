@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Uncanny</title>
+  <link rel="stylesheet" href="Uncanny.css">
+</head>
+<body>
+
+  <h1>🧠 Uncanny</h1>
+  <canvas id="game" width="600" height="400"></canvas>
+
+  <div id="levelSelector">
+    <label for="levelSelect">Choose Level:</label>
+    <select id="levelSelect"></select>
+  </div>
+
+  <div id="info"></div>
+
+  <div id="editor">
+    <h3>Level Editor</h3>
+    X: <input type="number" id="x" value="100">
+    Y: <input type="number" id="y" value="100">
+    W: <input type="number" id="w" value="50">
+    H: <input type="number" id="h" value="50">
+    <button type="button" id="addObj">Add Object</button>
+    <pre id="objectList"></pre>
+  </div>
+
+  <!-- Controls -->
+  <button type="button" id="startBtn">Start Game</button>
+  <button type="button" id="resetBtn">Reset Game</button>
+
+  <script src="Uncanny.js"></script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+.body {
+  background: #1e1e2f;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Maze container – grid magic */
+.maze {
+  display: grid;
+  grid-template-columns: repeat(10, 30px);  /* These get overridden by JS anyway */
+  grid-template-rows: repeat(10, 30px);
+  gap: 2px;
+  margin: 0 auto;
+}
+
+/* All cells have a base look */
+.cell {
+  width: 30px;
+  height: 30px;
+  background-color: #444;
+  border-radius: 4px;
+  transition: background-color 1s ease-out;
+}
+
+/* Walls are just darker cells */
+.wall {
+  background-color: #888;
+}
+
+/* Goal = green hope */
+.goal {
+  background-color: #4caf50;
+}
+
+/* Player = golden hero */
+.player {
+  background-color: #ffcc00;
+}
+
+/* Faded walls slowly disappear... */
+.faded {
+  background-color: transparent !important;
+}

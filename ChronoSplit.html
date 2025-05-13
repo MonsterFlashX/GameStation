@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>ChronoSplit</title>
+        <link rel="stylesheet" href="ChronoSplit.css">
+    </head>
+    <body id="body">
+        <h1>ChronoSplit</h1>
+        <div id="story">Fix the timeline before it's too late!</div>
+        <div id="timer"> Time left: 60s</div>
+        <div class="game-container">
+            <div class="timeline-past">
+                <h2>Past</h2>
+                <div class="room">
+                    <div class="switch" id="switch1">Switch 1 (Off)</div>
+                    <div class="switch" id="switch2">Switch 2 (Off)</div>
+                </div>
+            </div>
+            <div class="timeline-future">
+                <h2>Future</h2>
+                <div class="room">
+                    <div class="door" id="futureDoor">Door (Locked)</div>
+                </div>
+            </div>
+        </div>
+        <audio id="clickSound" src="assets/click.mp3"></audio>
+        <audio id="doorSound" src="assets/door_sound.mp3"></audio>
+        <script src="ChronoSplit.js"></script>
+    </body>
+</html>

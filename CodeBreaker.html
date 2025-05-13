@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CodeBreaker</title>
+  <link rel="stylesheet" href="CodeBreaker.css">
+</head>
+<body>
+
+  <h1>🧠 CodeBreaker</h1>
+  <p>Can you crack the secret 4-digit code?</p>
+
+  <div id="guess-area"></div>
+
+  <input type="text" id="input" maxlength="4" placeholder="Enter 4 digits (0-9)">
+  <button type="button" onclick="submitGuess()">Guess</button>
+
+  <p id="feedback"></p>
+
+  <p>Attempts: <span id="attempts">0</span>/10</p>
+  <p>Best Score: <span id="best">-</span></p>
+
+  <button type="button" onclick="restartGame()">Restart</button>
+
+  <script src="CodeBreaker.js"></script>
+</body>
+</html>

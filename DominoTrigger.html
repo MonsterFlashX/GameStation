@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>DominoTrigger</title>
+  <link rel="stylesheet" href="DominoTrigger.css">
+</head>
+<body>
+
+  <h1>🎯 DominoTrigger</h1>
+  <p>Build a chain. Trigger the fall. Hit the goal!</p>
+
+  <div class="controls">
+    <button type="button" onclick="toggleBuildMode()">🛠️ Build Mode</button>
+    <button type="button" onclick="startSimulation()">▶️ Trigger</button>
+    <button type="button" onclick="saveLevel()">💾 Save</button>
+    <button type="button" onclick="loadLevel()">📥 Load</button>
+
+    <select id="toolSelect">
+      <option value="domino">🟦 Domino</option>
+      <option value="switch">🟨 Switch</option>
+      <option value="goal">🎯 Goal</option>
+    </select>
+  </div>
+
+  <canvas id="game" width="800" height="500"></canvas>
+
+  <script src="DominoTrigger.js"></script>
+</body>
+</html>

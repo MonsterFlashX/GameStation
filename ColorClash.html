@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ColorClash</title>
+  <link rel="stylesheet" href="ColorClash.css">
+</head>
+<body>
+
+  <h1>🎨 ColorClash</h1>
+
+  <div id="menu">
+    <label for="difficulty">Difficulty:</label>
+    <select id="difficulty">
+      <option value="easy">Easy</option>
+      <option value="medium" selected>Medium</option>
+      <option value="hard">Hard</option>
+    </select>
+    <br>
+    <button type="button" onclick="startGame('single')">Single Player</button>
+    <button type="button" onclick="startGame('multi')">Two Player</button>
+  </div>
+
+  <div id="stats">
+    <p>Wins - P1: <span id="p1wins">0</span> | P2: <span id="p2wins">0</span></p>
+    <p>Games Played: <span id="gamesPlayed">0</span></p>
+  </div>
+
+  <canvas id="gameCanvas" width="400" height="400"></canvas>
+
+  <div id="leaderboard">
+    <h2>🏆 Leaderboard</h2>
+    <ol id="leaderList"></ol>
+  </div>
+
+  <div id="controls">
+    <button type="button" onclick="exportStats()">📤 Export Stats</button>
+    <button type="button" onclick="resetAll()">🗑️ Reset All</button>
+  </div>
+
+  <script src="ColorClash.js"></script>
+</body>
+</html>

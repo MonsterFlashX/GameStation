@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BrainSplit</title>
+  <link rel="stylesheet" href="BrainSplit.css">
+</head>
+<body>
+  <h1>🧠 BrainSplit</h1>
+  <p>Control both minds. Survive together. Split your focus!</p>
+
+  <button type="button" onclick="toggleEditor()">🛠️ Toggle Level Editor</button>
+
+  <div id="editorToolbar" style="display: none;">
+    <select id="elementType">
+      <option value="platform">🟫 Platform</option>
+      <option value="spike">☠️ Spike</option>
+      <option value="button">🔘 Button</option>
+      <option value="door">🚪 Door</option>
+      <option value="exit">🏁 Exit</option>
+    </select>
+    <button type="button" onclick="exportLevel()">📤 Export Level</button>
+    <button type="button" onclick="toggleVisualEditor()">🖌️ Toggle Visual Editor</button>
+    <pre id="output"></pre>
+  </div>
+
+  <canvas id="game" width="800" height="400"></canvas>
+
+  <script src="BrainSplit.js"></script>
+</body>
+</html>

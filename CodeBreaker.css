@@ -1,0 +1,56 @@
+body {
+  background: #0a0a0a;
+  color: #0f0;
+  font-family: 'Courier New', monospace;
+  text-align: center;
+  padding: 20px;
+}
+
+input {
+  font-size: 24px;
+  padding: 5px;
+  width: 200px;
+  text-align: center;
+  background: black;
+  color: lime;
+  border: 2px solid lime;
+  margin: 10px 0;
+}
+
+button {
+  font-size: 18px;
+  padding: 5px 12px;
+  background: black;
+  color: lime;
+  border: 2px solid lime;
+  margin: 8px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #111;
+}
+
+#guess-area {
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.guess {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.correct {
+  color: lime;
+  font-weight: bold;
+}
+
+.wrong-pos {
+  color: yellow;
+}
+
+.wrong {
+  color: red;
+}

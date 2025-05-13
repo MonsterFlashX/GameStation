@@ -1,0 +1,22 @@
+.body {
+  background: #111;
+  color: #fff;
+  text-align: center;
+  font-family: monospace;
+}
+
+/* Main game view */
+.canvas {
+  background: #222;
+  display: block;
+  margin: 20px auto;
+  border: 2px solid #fff;
+}
+
+/* HUD display */
+#hud {
+  font-size: 1.2em;
+  margin-bottom: -10px;
+}
+
+  

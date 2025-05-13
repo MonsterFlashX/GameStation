@@ -1,0 +1,85 @@
+/* Overall background vibes */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #1b1b2f; /* Nice dark bluish tone */
+  color: #f0f0f0;
+  text-align: center;
+  padding: 30px;
+  /* Note: might try adding some texture later */
+}
+
+/* Title styling – pop that heading! */
+h1 {
+  font-size: 2.5em;
+  color: #ffdd57;
+  margin-bottom: 20px;
+  /* Maybe animate this later? */
+}
+
+/* Instruction block – quick guide before the trick */
+.instructions {
+  font-size: 1.2em;
+  margin-bottom: 25px;
+  /* Was 20px – bumped it a little for space */
+}
+
+/* All buttons (probably just 2 for now) */
+button {
+  padding: 10px 22px;
+  font-size: 1em;
+  background-color: #ffdd57;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 20px;
+}
+
+/* Slight hover tweak */
+button:hover {
+  background-color: #ffd700;
+}
+
+/* Container for all the number-symbol pairs */
+#symbolGrid {
+  margin: 25px auto; /* slight tweak for centering */
+  width: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  /* Might add some shadow later */
+}
+
+/* Individual cells with number-symbol text */
+#symbolGrid div {
+  background-color: #2b2b3d;
+  padding: 10px;
+  border-radius: 6px;
+  width: 80px;
+  color: #ffdd57;
+  font-size: 1.1em;  /* dialed back slightly */
+}
+
+/* Generic utility class – used to hide stuff initially */
+.hidden {
+  display: none;
+}
+
+/* The dramatic reveal area */
+#mindResult {
+  margin-top: 30px;
+  font-size: 2em;
+  color: #ff4d4d;
+  animation: pulse 1s ease-in-out infinite alternate;
+}
+
+/* Simple scale animation for extra flair */
+@keyframes pulse {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.05);
+  }
+}

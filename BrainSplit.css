@@ -1,0 +1,31 @@
+body {
+  background: #111;
+  color: #0ff;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+/* Game canvas look */
+canvas {
+  background: #222;
+  display: block;
+  margin: 0 auto;
+  border: 2px solid #0ff;
+}
+
+/* Editor styles */
+.editor {
+  display: none;
+  background: #111;
+  color: #fff;
+  padding: 10px;
+}
+
+/* Output box */
+.textarea {
+  width: 90%;
+  height: 200px;
+  background: #222;
+  color: #0f0;
+  font-family: monospace;
+}

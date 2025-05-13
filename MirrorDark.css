@@ -1,0 +1,12 @@
+body {
+  background: #000;
+  color: #eee;
+  text-align: center;
+  font-family: 'Courier New', monospace;
+}
+
+canvas {
+  background: linear-gradient(to bottom, #222 50%, #111 50%);
+  border: 2px solid #eee;
+  margin-top: 10px;
+}

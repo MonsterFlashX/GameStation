@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>GridLock</title>
+  <link rel="stylesheet" href="GridLock.css">
+</head>
+<body>
+
+  <h1>🚗 GridLock</h1>
+
+  <p>Moves: <span id="moves">0</span> | Best: <span id="best">-</span></p>
+
+  <div id="grid"></div>
+
+  <div class="controls">
+    <button type="button" onclick="undoMove()">Undo</button>
+    <button type="button" onclick="resetLevel()">Reset</button>
+    <button type="button" onclick="nextLevel()">Next Level</button>
+  </div>
+
+  <script src="GridLock.js"></script>
+</body>
+</html>

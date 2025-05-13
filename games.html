@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GameStation</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/31149d48b0.js" crossorigin="anonymous"></script>
+    <!-- linking css file -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body id="body">
+      <!-- navigeringsfältet -->
+    <!-- https://getbootstrap.com/docs/5.2/components/navbar/ -->
+    <nav class="navbar navbar-expand-lg fixed-top navbarScroll navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">GameStation</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#games">Menu</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- huvudbanner -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/containers/ -->
+    <!-- https://getbootstrap.com/docs/5.2/layout/grid/ -->
+    <section class="container-fluid section bgimage3" id="game">
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 hero_text">
+                <h2 class="hero_title">Games</h2>
+                <p class="hero_desc">Welcome, gamers. Please enjoy yourselves to your heart's content for free</p>
+            </div>
+        </div>
+    </section>
+    <!--I denna sektionen, så finns det en porfolio med 6 styckna valfria projekter som beskriver om deras funktioner, syfte, uppstående och mycket mer-->
+    <section class="container-fluid gameimg" id="games">
+        <div class="container mt-3">
+            <h1 class="text-center" id="h3">Games</h1>
+            <div class="row justify-content-center">
+<!-- Card Section Starts Here -->
+<!-- Tribute Card -->
+<div class="col-lg-4 col-md-6 mt-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">ChronoSplit</h4>
+        <p class="card-text">Switch between timelines to solve interconnected puzzles. One action in the past changes the future!</p>
+        <div class="text-center">
+          <a href="ChronoSplit.html" class="btn btn-success">Press the button</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Little quiz, pretty tough -->
+  <div class="col-lg-4 col-md-6 mt-4">
+      <div class="card">
+          <div class="card-body">
+              <h4 class="card-title">ThoughtSnare</h4>
+              <p class="card-text">A psychological trick game that pretends to read your mind using math and clever UI.</p>
+              <div class="text-center">
+                  <a href="ThoughtSnare.html" class="btn btn-success">Press the button</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Landing page with a form -->
+  <div class="col-lg-4 col-md-6 mt-4">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">MazeFade</h4>
+          <p class="card-text">Memorize a path that disappears. Use memory, not sight, to escape.</p>
+          <div class="text-center">
+            <a href="MazeFade.html" class="btn btn-success">Press the button</a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <!-- Prototype restaurant site -->
+  <div class="col-lg-4 col-md-6 mt-4">
+      <div class="card">
+          <div class="card-body">
+              <h4 class="card-title">CipherTrace</h4>
+              <p class="card-text">Simulated hacking game with a retro terminal UI. Crack codes, bypass firewalls, and complete missions.</p>
+              <div class="text-center">
+                  <a href="CipherTrace.html" class="btn btn-success">Press the button</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Simple form card -->
+  <div class="col-lg-4 col-md-6 mt-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">GravShift</h4>
+        <p class="card-text">A platformer with the ability to flip gravity. Think with gravity to beat each level.</p>
+        <div class="text-center">
+          <a href="GravShift.html" class="btn btn-success">Press the button</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Events page for tech folks -->
+  <div class="col-lg-4 col-md-6 mt-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">GlitchSnitch</h4>
+        <p class="card-text">Detect tiny visual glitches between rapidly changing scenes before the timer runs out.</p>
+        <div class="text-center">
+          <a href="GlitchSnitch.html" class="btn btn-success">Press the button</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Tribute Card -->
+<div class="col-lg-4 col-md-6 mt-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">BrainSplit</h4>
+        <p class="card-text">Two sides of the screen throw math problems. Test your reflexes and hemispheres!</p>
+        <div class="text-center">
+          <a href="BrainSplit.html" class="btn btn-success">Press the button</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Little quiz, pretty tough -->
+  <div class="col-lg-4 col-md-6 mt-4">
+      <div class="card">
+          <div class="card-body">
+              <h4 class="card-title">DominoTrigger</h4>
+              <p class="card-text">Set off chain reactions with one move to clear all pieces. Think ahead, like dominos or minesweeper meets Rube Goldberg.</p>
+              <div class="text-center">
+                  <a href="DominoTrigger.html" class="btn btn-success">Press the button</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Landing page with a form -->
+  <div class="col-lg-4 col-md-6 mt-4">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Uncanny</h4>
+          <p class="card-text">Observe behavior patterns to detect which character is not human. Subtle visual and timing cues.</p>
+          <div class="text-center">
+            <a href="Uncanny.html" class="btn btn-success">Press the button</a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <!-- Prototype restaurant site -->
+  <div class="col-lg-4 col-md-6 mt-4">
+      <div class="card">
+          <div class="card-body">
+              <h4 class="card-title">ColorClash</h4>
+              <p class="card-text">Turn-based or real-time color battle where you “paint” a grid. Includes power-ups and traps.</p>
+              <div class="text-center">
+                  <a href="ColorClash.html" class="btn btn-success">Press the button</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Simple form card -->
+  <div class="col-lg-4 col-md-6 mt-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">StackHack</h4>
+        <p class="card-text">Drop blocks to build the tallest tower — but physics and wind fight back. Styled like a retro arcade game.</p>
+        <div class="text-center">
+          <a href="StackHack.html" class="btn btn-success">Press the button</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Events page for tech folks -->
+  <div class="col-lg-4 col-md-6 mt-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">Voidrunner</h4>
+        <p class="card-text">Dodge asteroids and black holes in an infinite scrolling background. Add parallax and sound FX for flair.</p>
+        <div class="text-center">
+          <a href="VoidRunner.html" class="btn btn-success">Press the button</a>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- Tribute Card -->
+<div class="col-lg-4 col-md-6 mt-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">CodeBreaker</h4>
+        <p class="card-text">Recreate the color/number guessing game with a slick UI and increasing difficulty levels.</p>
+        <div class="text-center">
+          <a href="CodeBreaker.html" class="btn btn-success">Press the button</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Little quiz, pretty tough -->
+  <div class="col-lg-4 col-md-6 mt-4">
+      <div class="card">
+          <div class="card-body">
+              <h4 class="card-title">TapFrenzy</h4>
+              <p class="card-text">Objects flash quickly and disappear. Tap the correct one within a millisecond window.</p>
+              <div class="text-center">
+                  <a href="TapFrenzy.html" class="btn btn-success">Press the button</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Landing page with a form -->
+  <div class="col-lg-4 col-md-6 mt-4">
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">GridLock</h4>
+          <p class="card-text">Slide blocks on a grid to move an object from start to finish. Like Rush Hour puzzle meets Sokoban.</p>
+          <div class="text-center">
+            <a href="GridLock.html" class="btn btn-success">Press the button</a>
+          </div>
+        </div>
+      </div>
+  </div>
+
+  <!-- Prototype restaurant site -->
+  <div class="col-lg-4 col-md-6 mt-4">
+      <div class="card">
+          <div class="card-body">
+              <h4 class="card-title">TimeThief</h4>
+              <p class="card-text">You have 60 seconds. Every decision changes how fast or slow time flows. Strategic choices = longer survival.</p>
+              <div class="text-center">
+                  <a href="TimeThief.html" class="btn btn-success">Press the button</a>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Simple form card -->
+  <div class="col-lg-4 col-md-6 mt-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">MirrorDark</h4>
+        <p class="card-text">You and your mirrored shadow move together — but in opposite directions. Navigate without killing your mirror-self.</p>
+        <div class="text-center">
+          <a href="MirrorDark.html" class="btn btn-success">Press the button</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Events page for tech folks -->
+  <div class="col-lg-4 col-md-6 mt-4">
+    <div class="card">
+      <div class="card-body">
+        <h4 class="card-title">ScrollQuest</h4>
+        <p class="card-text">Build a beautiful, scrollable adventure with visuals that react to choices. Think Zork meets modern web design. </p>
+        <div class="text-center">
+          <a href="ScrollQuest.html" class="btn btn-success">Press the button</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  </div> <!-- end of row, might wanna double-check this layout later -->
+  </div> <!-- container ends here -->
+
+</section>
+  </body>
+  </html>

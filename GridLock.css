@@ -1,0 +1,49 @@
+body {
+  font-family: sans-serif;
+  background: #121212;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(6, 60px);
+  grid-template-rows: repeat(6, 60px);
+  gap: 2px;
+  margin: 20px auto;
+  width: max-content;
+  background: #333;
+}
+
+.block {
+  background: #666;
+  border-radius: 5px;
+  position: relative;
+}
+
+.block.red {
+  background: red;
+}
+
+.block.goal {
+  background: limegreen;
+}
+
+.controls {
+  margin-top: 15px;
+}
+
+.controls button {
+  padding: 8px 12px;
+  margin: 5px;
+  background: #222;
+  color: #0ff;
+  border: 1px solid #0ff;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.controls button:hover {
+  background-color: #333;
+}

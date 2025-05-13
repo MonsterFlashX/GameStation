@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CipherTrace</title>
+  <link rel="stylesheet" href="CipherTrace.css">
+</head>
+<body>
+
+  <h1>🔐 CipherTrace</h1>
+  <div class="story">
+    Level 1: We intercepted a transmission. Think you can break the code?
+  </div>
+
+  <p id="result"></p>
+  <p>Hints used: <span id="hintCount">0</span></p>
+
+  <div class="puzzle">
+    <p><strong>Encrypted:</strong> <span id="cipherText">[loading...]</span></p>
+
+    <label for="guess">Your guess:</label><br>
+    <input type="text" id="guess" placeholder="Type your decryption here">
+    <br>
+    <button type="button" id="submitGuess">Submit</button>
+
+    <p id="hint"></p>
+
+    <button type="button" id="hintBtn">🔍 Hint</button>
+    <p id="hintText"></p>
+  </div>
+
+  <script src="CipherTrace.js"></script>
+</body>
+</html>

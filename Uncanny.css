@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    background: #111;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  canvas {
+    border: 2px solid white;
+    margin-top: 20px;
+  }
+  
+  #levelSelector,
+  #info {
+    margin-top: 15px;
+  }
+  
+  #editor {
+    margin-top: 20px;
+    background: #222;
+    padding: 15px;
+    display: inline-block;
+    color: #0ff;
+    border-radius: 8px;
+  }
+  
+  #editor input {
+    margin: 5px;
+    width: 60px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 8px 14px;
+    background: #0ff;
+    color: #000;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  

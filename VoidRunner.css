@@ -1,0 +1,31 @@
+body {
+  background: linear-gradient(#000011, #111122);
+  color: #0ff;
+  font-family: monospace;
+  text-align: center;
+  margin: 0;
+  padding: 20px;
+}
+
+canvas {
+  background: black;
+  display: block;
+  margin: 10px auto;
+  border: 2px solid #0ff;
+}
+
+button {
+  padding: 10px 20px;
+  background: #111;
+  color: #0ff;
+  border: 1px solid #0ff;
+  cursor: pointer;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #222;
+}
+
+  

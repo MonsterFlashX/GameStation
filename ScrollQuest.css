@@ -1,0 +1,27 @@
+body {
+  background-color: #111;
+  color: #fff;
+  font-family: 'Segoe UI', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  margin-bottom: 10px;
+  color: #fdd835;
+}
+
+canvas {
+  border: 4px solid #fdd835;
+  background-color: #222;
+  image-rendering: pixelated;
+}
+
+#status {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #aaa;
+}  
