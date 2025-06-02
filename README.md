@@ -1,4 +1,5 @@
 -# GameStation
+
 GameStation är en frontend-baserad spelwebbplats som låter mest barn och ungdomar, men kan också vara riktad till alla åldrar med olika intresse.  Projektet är utvecklat som ett skolprojekt i syfte att öva på HTML, CSS, JavaScript och Bootstrap.
 
 Syfte och mål
