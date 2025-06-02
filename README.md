@@ -1,4 +1,4 @@
-# GameStation
+-# GameStation
 GameStation är en frontend-baserad spelwebbplats som låter mest barn och ungdomar, men kan också vara riktad till alla åldrar med olika intresse.  Projektet är utvecklat som ett skolprojekt i syfte att öva på HTML, CSS, JavaScript och Bootstrap.
 
 Syfte och mål
@@ -21,4 +21,4 @@ Kodningsspråk och ramverk
 Användning
 
 Så här gör du om du vill använda eller testa projektet på din egen dator genom att klona min repo: 
-git clone https://github.com/MonsterFlashX/GameStation.git
+- git clone https://github.com/MonsterFlashX/GameStation.git
